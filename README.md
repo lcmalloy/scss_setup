@@ -12,11 +12,16 @@ Common setup for scss styling on most projects
 ```
 
 
-### Install Purgecss
+### Purgecss
+
+#### Install
 
 ```
 purgecss: npm i vite-plugin-html-purgecss -D
-vite.config.js
+```
+
+#### vite.config.js
+```
   import htmlPurge from "vite-plugin-html-purgecss"
   export default {
     plugins: [htmlPurge()],
